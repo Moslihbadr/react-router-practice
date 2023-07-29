@@ -7,7 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar-brand svg {
+  width: 50px;
+}
+
+li {
+  display: flex;
+  padding: 10px;
+}
+
+li a.nav-link {
+  padding: 10px;
+}
+
+a.active {
+  background-color: #8ed1f0;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+a:hover {
+  background-color: #d2e2ea;
+  border-radius: 0;
+}
+
+.navbar-brand:first-child {
+  background-color: transparent;
 }
