@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <NavBar />
-        <main>
+        <main className='container'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
